@@ -9,7 +9,6 @@
                         <field name="room_name"/>
                         <field name="date_start"/>
                         <field name="date_end"/>
-                        <!-- Ajoute d'autres champs ici -->
                     </group>
                     <footer>
                         <button string="Réserver" type="object" class="oe_highlight" name="action_confirm_reservation"/>
