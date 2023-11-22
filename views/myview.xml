@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <record id="view_reservation_form" model="ir.ui.view">
+            <field name="name">room.reservation.form</field>
+            <field name="model">room.reservation</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="room_name"/>
+                        <field name="date_start"/>
+                        <field name="date_end"/>
+                        <!-- Ajoute d'autres champs ici -->
+                    </group>
+                    <footer>
+                        <button string="Réserver" type="object" class="oe_highlight" name="action_confirm_reservation"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
